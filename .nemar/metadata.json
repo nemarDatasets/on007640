@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Dataset of emotion recognition using validated video stimuli with large-scale behavioral survey and MEG recordings",
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 23 participants viewing 40 validated emotional video stimuli, complemented by a large-scale behavioral survey (500 participants) and head digitization data. The dataset provides multi-faceted emotion annotations including Self-Assessment Manikin (SAM) ratings for valence and arousal, discrete emotion categories (PrEmo), and temporal scene selections, enabling investigation of emotion-specific neural signal patterns for brain signal-based emotion recognition research.",
+  "methods_description": "MEG neural recordings were acquired from 23 participants during viewing of 40 validated video clips designed to induce different emotional states. Head position information including 3D spatial coordinates for anatomical landmarks and Head Position Indicator (HPI) coils was measured prior to each recording session. Emotional responses were assessed using Self-Assessment Manikin (SAM) for valence and arousal, discrete emotion categories (PrEmo), and temporal highlight scene selections. A parallel online survey collected subjective emotional assessments from 500 participants for the same video stimuli.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,42 @@
     "Min-Young Kim": {},
     "Sung-Phil Kim": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007640.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "emotion recognition"
+    },
+    {
+      "term": "affective neuroscience"
+    },
+    {
+      "term": "emotion classification"
+    },
+    {
+      "term": "video stimuli"
+    },
+    {
+      "term": "magnetoencephalography"
+    },
+    {
+      "term": "behavioral survey"
+    },
+    {
+      "term": "head digitization"
+    },
+    {
+      "term": "valence and arousal"
+    },
+    {
+      "term": "PrEmo"
+    },
+    {
+      "term": "Self-Assessment Manikin"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007640",
       "identifier_type": "URL",
@@ -31,50 +63,11 @@
       "identifier": "10.18112/openneuro.ds007640",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "beh",
-    "meg"
-  ],
-  "resource_type_specific": "Neuroimaging Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".cfg",
-    ".fif",
-    ".json",
-    ".md",
-    ".tsv"
-  ],
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 23 participants viewing 40 validated emotional video stimuli, complemented by a large-scale behavioral survey of 500 participants rating the same stimuli. The dataset includes comprehensive phenotypic data with multi-faceted emotion assessments (Self-Assessment Manikin, discrete emotion categories, and temporal annotations), head digitization information for accurate source localization, and raw MEG signals. This resource enables investigation of emotion-specific neural signal patterns and brain-based emotion recognition.",
-  "methods_description": "MEG recordings were acquired from 23 participants during viewing of 40 validated video clips designed to induce different emotional states. Emotional responses were assessed using multiple measures including Self-Assessment Manikin (SAM) for valence and arousal, discrete emotion categories (PrEmo), and temporal highlight scene selections. Head position information including 3D spatial coordinates of anatomical landmarks and Head Position Indicator (HPI) coils was digitized prior to each recording session for accurate co-registration.",
-  "keywords": [
-    {
-      "term": "MEG"
     },
     {
-      "term": "emotion recognition"
-    },
-    {
-      "term": "affective neuroscience"
-    },
-    {
-      "term": "video stimuli"
-    },
-    {
-      "term": "brain imaging"
-    },
-    {
-      "term": "magnetoencephalography"
-    },
-    {
-      "term": "behavioral survey"
-    },
-    {
-      "term": "head digitization"
+      "identifier": "10.18112/openneuro.ds007640.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -84,5 +77,22 @@
       "award_title": "Challengeable Future Defense Technology Research and Development Program"
     }
   ],
-  "source_hash": "6405ec7b44e2ece3a6d340c315db25f2666368fe3430924813a0cd6198d14cd0"
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
+  "modalities": [
+    "beh",
+    "meg"
+  ],
+  "sizes": [
+    "95.4 GB (124 files)"
+  ],
+  "formats": [
+    ".cfg",
+    ".fif",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "f3b1a1f76bf6a1dd0dc2b660117ff0a5ed8fedaea92436415e31eadbb74ec02e"
 }

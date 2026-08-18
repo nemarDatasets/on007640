@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Dataset of emotion recognition using validated video stimuli with large-scale behavioral survey and MEG recordings",
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 23 participants viewing 40 validated emotional video stimuli, complemented by a large-scale behavioral survey (500 participants) and head digitization data. The dataset provides multi-faceted emotion annotations including Self-Assessment Manikin (SAM) ratings for valence and arousal, discrete emotion categories (PrEmo), and temporal scene selections, enabling investigation of emotion-specific neural signal patterns for brain signal-based emotion recognition research.",
-  "methods_description": "MEG neural recordings were acquired from 23 participants during viewing of 40 validated video clips designed to induce different emotional states. Head position information including 3D spatial coordinates for anatomical landmarks and Head Position Indicator (HPI) coils was measured prior to each recording session. Emotional responses were assessed using Self-Assessment Manikin (SAM) for valence and arousal, discrete emotion categories (PrEmo), and temporal highlight scene selections. A parallel online survey collected subjective emotional assessments from 500 participants for the same video stimuli. This dataset is derived from OpenNeuro dataset ds007640 (v1.0.1).",
+  "description": "This dataset investigates brain signal-based emotion recognition through magnetoencephalography (MEG) recordings collected while participants viewed validated emotional video stimuli. It comprises three components: a large-scale online behavioral survey of 500 participants rating 40 video clips, head digitization data for co-registration, and MEG neural recordings from 23 participants viewing the same stimuli. Emotional states were assessed using Self-Assessment Manikin ratings, discrete emotion categories (PrEmo), and temporal highlight annotations, providing multi-faceted ground truth for affective neuroscience research.",
+  "methods_description": "Data collection involved a large-scale online behavioral survey (500 participants) rating 40 validated video stimuli using Self-Assessment Manikin (SAM) scales for valence and arousal, discrete emotion categories (PrEmo), and temporal highlight scene selections. MEG recordings were obtained from 23 participants viewing the same video stimuli, with head position digitization performed prior to each session to capture 3D coordinates of anatomical landmarks and HPI coils for co-registration.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,34 +18,21 @@
       "term": "MEG"
     },
     {
+      "term": "Emotions",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004644"
+    },
+    {
       "term": "emotion recognition"
-    },
-    {
-      "term": "affective neuroscience"
-    },
-    {
-      "term": "brain signals"
     },
     {
       "term": "video stimuli"
     },
     {
-      "term": "behavioral assessment"
+      "term": "valence and arousal"
     },
     {
-      "term": "valence"
-    },
-    {
-      "term": "arousal"
-    },
-    {
-      "term": "Self-Assessment Manikin"
-    },
-    {
-      "term": "emotion categories"
-    },
-    {
-      "term": "PrEmo"
+      "term": "behavioral survey"
     }
   ],
   "related_identifiers": [
